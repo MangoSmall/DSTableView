@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name	 = "DSTableView"
   s.summary      = "A short description of DSTableView."
-  s.version	 = "1.0.0"
+  s.version	 = "1.0.1"
   s.description  = "simple tableView test"
 
   s.homepage     = "https://github.com/MangoSmall/DSTableView"
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/MangoSmall/DSTableView.git", :tag => s.version }
   # s.source_files = 'Release/*.Framework'
 
-  s.vendored_frameworks ='IMSDK.framework'
+  s.vendored_frameworks = 'IMSDK.framework'
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
