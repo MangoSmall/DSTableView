@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
   s.ios.deployment_target = "8.0"
-  s.
+ 
   s.source       = { :git => "https://github.com/MangoSmall/DSTableView.git", :tag => s.version }
   s.source_files = 'DSTableView/*.swift'
   # s.resource  = "icon.png"
