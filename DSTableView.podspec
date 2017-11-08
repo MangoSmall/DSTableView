@@ -1,32 +1,27 @@
 Pod::Spec.new do |s|
 
+  s.name	 = "DSTableView"
   s.summary      = "A short description of DSTableView."
+  s.version	 = "1.0.0"
+  s.description  = "simple tableView test"
 
-  s.description  = <<-DESC
-                   DESC
-
-  s.homepage     = "http://EXAMPLE/DSTableView"
-
-
-
-  s.license      = "MIT (example)"
+  s.homepage     = "https://github.com/MangoSmall/DSTableView"
 
 
 
-  s.author             = { "haochongfeng" => "haocf@7moor.com" }
+  s.license      = "MIT"
+
+
+
+  s.author       = "haochongfeng"
+  s.requires_arc = true  
 
 
   s.platform     = :ios
-
-  s.ios.deployment_target = "5.0"
-
-  s.source       = { :git => "http://EXAMPLE/DSTableView.git", :tag => "#{s.version}" }
-
-
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-
-
+  s.ios.deployment_target = "8.0"
+  s.
+  s.source       = { :git => "https://github.com/MangoSmall/DSTableView.git", :tag => s.version }
+  s.source_files = 'DSTableView/*.swift'
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
